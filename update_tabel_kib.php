@@ -49,8 +49,8 @@ switch (substr($kode_bar,0,6)) {
     default:
         $kode_kib = '1.3.99';
 }
-echo $kode_aset.' == '.$kode_kib .' : ';
-exit;
+// echo $kode_aset.' == '.$kode_kib .' : ';
+// exit;
 if($kode_aset == $kode_kib){
 
 	$update = "UPDATE ta_kib_108_barcode 
